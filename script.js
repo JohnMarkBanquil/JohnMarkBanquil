@@ -1,26 +1,29 @@
-console.log("Hello, World!");
-const Name = "JohnnMark L. Banquil"
-console.log("Name is: " + Name); 
+console.log("Hello world.");
+const Myname = "JohnMark L. Banquil";
+console.log('NAME:' + Myname);
+let age = 20;
+console.log('AGE:' + age);
+let number = 92342423;
+console.log('NUMBER:' + number);
+let address = "Brgy 6-a";
+console.log('ADDRESS:' + address);
 
-let Age = 20; 
-console.log("Age is: " + Age); 
-let Number = 09166138837; 
-console.log("Number is: " + Number); 
-let Address = "Victorias City, Philippines"; 
-console.log("Address is: " + Address); 
+//Functions
 
 function greet(name) {
     return `Good morning, ${name}`;
+
 }
-    console.log(greet("JohnMark"));
+console.log(greet("JohnMark"));
 
-function mdas(firstNumber, secondNumber) {
-    console.log("Multiplication:", firstNumber * secondNumber);
-    console.log("Division:", firstNumber / secondNumber);
-    console.log("Addition:", firstNumber + secondNumber);
-    console.log("Subtraction:", firstNumber - secondNumber);
+
+
+function mdas(num1, num2) {
+    let m = num1 * num2;
+    let d = num1 / num2;
+    let a = num1 + num2;
+    let s = num1 - num2;
+
+    return (`Values: ${num1} and ${num2}. \n Product ${m}, \nQuotient: ${d}, \nSum: ${a}, \nDiff: ${s}`);
 }
-
-mdas(5, 3);
-
-    
+console.log(mdas(5, 3))
