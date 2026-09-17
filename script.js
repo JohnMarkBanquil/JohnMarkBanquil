@@ -14,7 +14,7 @@ function greet(name) {
     return `Good morning, ${name}`;
 
 }
-console.log(greet("rene"));
+console.log(greet("Rene"));
 
 
 
