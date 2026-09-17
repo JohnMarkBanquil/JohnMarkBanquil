@@ -1,9 +1,9 @@
 console.log("Hello world.");
-const Myname = "JohnMark L. Banquil";
+const Myname = "JohnMarkBanquil";
 console.log('NAME:' + Myname);
 let age = 20;
 console.log('AGE:' + age);
-let number = 92342423;
+let number = 923432423;
 console.log('NUMBER:' + number);
 let address = "BRGY XXI";
 console.log('ADDRESS:' + address);
