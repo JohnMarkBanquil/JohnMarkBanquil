@@ -170,7 +170,7 @@ nav {
  }
 
  button {
-     background-color: black;
+     background-color: blue;
      color: white;
      padding: 12px 24px;
      border: none;
@@ -214,8 +214,8 @@ main {
  }
 
  #projects {
-     color: rgb(13, 99, 63);
-     background-color: orange;
+     color: rgb(13, 99, 66);
+     background-color: aqua;
  }
 
  #services {
@@ -245,7 +245,7 @@ main {
 
  nav ul {
      display: flex;
-     gap: 21px;
+     gap: 20px;
  }
 
  main {
