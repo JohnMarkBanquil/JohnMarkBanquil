@@ -48,17 +48,10 @@ contactHeading.textContent = "Let's Connect!";
 serviceHeading.textContent = "My Services";
 projectHeading.textContent = "My Projects";
 
-//.style
-heading.style.color = "purple";
-heading.style.backgroundColor = "yellow";
-contactHeading.style.color = "purple";
-serviceHeading.style.color = "purple";
-projectHeading.style.color = "purple";
-
-
 //Event listeners
 heading.addEventListener("click", function () {
-    heading.style.color = "red";
+    heading.classList.toggle("text-orange-500");
+    heading.classList.toggle("text-orange-300");
 });
 
 const toggleButton = document.querySelector('#switch');
@@ -69,12 +62,10 @@ toggleButton.addEventListener("click", function () {
     isOff = !isOff;
 
     if (isOff) {
-        body.style.backgroundColor = "black";
-        body.style.color = "white";
-
+        body.classList.replace("bg-neutral-950", "bg-orange-500");
+        body.classList.replace("text-orange-100", "text-neutral-950");
     } else {
-        body.style.backgroundColor = "white";
-        body.style.color = "black";
-
+        body.classList.replace("bg-orange-500", "bg-neutral-950");
+        body.classList.replace("text-neutral-950", "text-orange-100");
     }
 });
